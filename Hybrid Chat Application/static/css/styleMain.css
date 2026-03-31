@@ -1,0 +1,32 @@
+/* * File: style.css
+ * Description: Stylesheet for WeApRous Hybrid Chat Application.
+ * NOTE: This uses basic CSS, but Tailwind classes are already used inline in the HTML.
+ * This file is for adding custom, non-Tailwind styles (e.g., scrollbar).
+ */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for the message window */
+#api-log::-webkit-scrollbar,
+#active-peers::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+#api-log::-webkit-scrollbar-thumb,
+#active-peers::-webkit-scrollbar-thumb {
+    background-color: #6366f1; /* Indigo-500 */
+    border-radius: 3px;
+}
+#api-log::-webkit-scrollbar-track,
+#active-peers::-webkit-scrollbar-track {
+    background-color: #374151; /* Gray-700 for dark log background */
+}
+
+/* Styles for the log area to ensure readability */
+#api-log div {
+    padding: 2px 0;
+    word-wrap: break-word;
+}

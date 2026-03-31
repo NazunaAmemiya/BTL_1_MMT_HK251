@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styleLogin.css">
+</head>
+
+<body>
+    <h1 id="tittle"> HYBRID CHAT APP</h1>
+    <div id="box_login">
+        <div>
+            <input type="text" class="inputLogin" id="name" placeholder="Enter your username">
+        </div>
+        <div>
+            <input type="text" class="inputLogin" id="pass" placeholder="Enter your password">
+        </div>
+        <div>
+            <button id="login_btn">Login</button>
+        </div>
+        <div id="no_acc_box">
+            <p id="no_acc_text">You don't have an account?</p>
+            <button id="GoSignin_btn">Sign in</button>
+        </div>
+    </div>
+
+    <div id="box_signin" style="display: none">
+        <div>
+            <input type="text" class="inputLogin" id="nameSign" placeholder="Enter your username">
+        </div>
+        <div>
+            <input type="text" class="inputLogin" id="passSign" placeholder="Enter your password">
+        </div>
+        <div style="display: flex; flex-direction: row; justify-content: center;">
+            <button id="back_btn">Back</button>
+            <button id="signin_btn">Sign in</button>
+        </div>
+    </div>
+</body>
+<script src="js/fe.js"></script>
+
+</html>
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>LOGIN</h1>
+    
+    <form method="POST" action="/login">
+        Username: <input name="username" type="text"><br>
+        Password: <input name="password" type="password"><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+-->
