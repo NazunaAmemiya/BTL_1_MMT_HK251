@@ -35,6 +35,8 @@ Hybrid Chat Application/
 ├── start_app.py
 └── start_p2p.py
 ```
+## Khởi chạy
+```text
 python start_backend.py --server-ip 127.0.0.1 --server-port 9000
 python start_proxy.py --server-ip 0.0.0.0 --server-port 8080
 python start_sampleapp.py --server-ip 127.0.0.1 --server-port 8000
